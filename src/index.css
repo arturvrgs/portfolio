@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap&family=Pixelify+Sans&display=swap');
+@import 'tailwindcss';
+
+/* tailwind config */
+
+@theme {
+    --font-mplus: 'M PLUS 1', 'sans-serif';
+    --font-pixel: 'Pixelify Sans'
+}
+
+
+
