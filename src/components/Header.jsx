@@ -23,7 +23,7 @@ const headerItems = [
 function Header() {
   return (
     <header
-      className="flex justify-center items-center text-zinc-100 py-5 text-lg bg-zinc-900/40 backdrop-blur-sm"
+      className="flex justify-center items-center text-zinc-100 py-5 text-md bg-zinc-900/40 backdrop-blur-sm"
     >
       <nav className="w-screen">
         <ul className="flex justify-center gap-20">

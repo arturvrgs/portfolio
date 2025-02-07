@@ -12,7 +12,7 @@ function About() {
     })
 
   return (
-    <section className="flex w-full justify-center tracking-[3px] gap-5 mt-65">
+    <section className="flex w-full justify-center tracking-[3px] gap-5 mt-65 scale-80">
       <img className="w-auto max-h-[329px]" src={photo} />
       <div className="w-[575px]">
         <div className="text-zinc-100">
