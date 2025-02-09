@@ -90,26 +90,26 @@ function Skills() {
 })
 
   return (
-    <section className="flex flex-col items-center justify-center gap-30 text-zinc-100 tracking-[12px] text-2xl mt-65 w-full ">
+    <section className="flex flex-col items-center justify-center gap-30 text-zinc-100 tracking-[12px] text-2xl mt-80 w-full">
       <h1 className="flex">EXPERIÊNCIA</h1>
 
       <motion.div 
           initial={{ opacity: 0, x: -70 }}
           whileInView={{ opacity: 2, x: 0, transition: { duration: 1.0 } }}
+
       >
-        <div className="flex items-baseline gap-40">
-          <div className="flex flex-col items-center justify-center gap-6">
+        <div id="skills" className="mx-20 lg:flex lg:gap-30 lg:justify-start lg:items-start">
+          <div className="flex flex-col items-center justify-center gap-9">
             <h1 className="text-xl tracking-[8px] text-zinc-300">{'<'}{text}{'>'}</h1>
-            <div className="h-1 w-full bg-zinc-700/30 "></div>
             <div className="grid grid-cols-4 gap-5">
               {skillItemsDev.map((item, i) => {
                 return (
                   <div
-                    className="flex flex-col items-center gap-2 font-medium"
+                    className="flex flex-col items-center gap-3 font-medium"
                     key={i}
                   >
-                    <img src={item.skillIcon} />
-                    <p className="text-xs font-bold tracking-normal text-zinc-300">
+                    <img className="h-17 grayscale-25" src={item.skillIcon} />
+                    <p className="text-[13px] font-medium tracking-normal text-zinc-300">
                       {item.skillName}
                     </p>
                   </div>
@@ -117,21 +117,20 @@ function Skills() {
               })}
             </div>
           </div>
-          <div className="flex flex-col items-center justify-center gap-6">
+          <div className="flex flex-col items-center justify-center gap-9 mt-10 lg:mt-0">
             <h1 className="text-xl tracking-[8px] text-zinc-300">
               {"<DevOps />"}
               <Cursor />
             </h1>
-            <div className="h-1 w-full bg-zinc-700/30"></div>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-4 gap-5">
               {skillItemsDevOps.map((item, i) => {
                 return (
                   <div
-                    className="flex flex-col items-center gap-2 font-medium"
+                    className="flex flex-col items-center gap-3 font-medium"
                     key={i}
                   >
-                    <img src={item.skillIcon} />
-                    <p className="text-xs font-bold tracking-normal text-zinc-300">
+                    <img className="h-17 grayscale-25" src={item.skillIcon} />
+                    <p className="text-[13px] font-medium tracking-normal text-zinc-300">
                       {item.skillName}
                     </p>
                   </div>

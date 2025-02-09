@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap&family=Pixelify+Sans&display=swap');
 @import 'tailwindcss';
 
 /* tailwind config */
@@ -6,7 +6,11 @@
 @theme {
     --font-mplus: 'M PLUS 1', 'sans-serif';
     --font-pixel: 'Pixelify Sans'
+    
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 
