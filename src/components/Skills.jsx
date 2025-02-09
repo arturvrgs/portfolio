@@ -98,7 +98,7 @@ function Skills() {
           whileInView={{ opacity: 2, x: 0, transition: { duration: 1.0 } }}
 
       >
-        <div id="skills" className="mx-20 lg:flex lg:gap-30 lg:justify-start lg:items-start">
+        <div id="skills" className="lg:flex lg:gap-30 lg:justify-start lg:items-start">
           <div className="flex flex-col items-center justify-center gap-9">
             <h1 className="text-xl tracking-[8px] text-zinc-300">{'<'}{text}{'>'}</h1>
             <div className="grid grid-cols-4 gap-5">
