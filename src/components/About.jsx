@@ -12,19 +12,19 @@ function About() {
     })
 
   return (
-    <section className="lg:flex justify-center items-center mt-[15%] tracking-[3px] gap-5 scale-80">
+    <section className="lg:flex justify-center items-center lg:mt-[15%] tracking-[3px] gap-5 scale-70 lg:scale-80">
       <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0, transition: { duration: 0.7 } }}
           viewport={{once: true}}
-          className="flex justify-center "
+          className="flex justify-center"
       >
-        <img src={photo} />
+        <img className="h-70 lg:h-80" src={photo} />
         </motion.div>
       <div className="lg:w-[575px] flex flex-col gap-5 ">
         <div className="text-zinc-100">
 
-          <h1 className="text-4xl mb-2 mt-2">Artur Villanova Vargas</h1>
+          <h1 className="text-3xl lg:text-left lg:text-4xl mb-2 mt-2">Artur Villanova Vargas</h1>
           <h2 className="text-2xl bg-black h-18 lg:h-auto">
             <span>{'<'}</span>
             <span className="text-[#D08700]"> type</span>
