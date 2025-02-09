@@ -13,7 +13,7 @@ function Footer() {
                 </nav>
                 <nav className=" flex-col text-zinc-200 ">
                     <h1 className="font-bold list-none text-xl">CURRÍCULO</h1>
-                    <a className='flex items-center bg-green-700 p-1 rounded-sm text-sm mt-2 hover:underline' href="./src/assets/arturvargasCV.pdf"><Download size={18}/>Download CV</a>
+                    <a className='flex items-center bg-green-700 p-1 rounded-sm text-sm mt-2 hover:underline' download href="./src/assets/arturvargasCV.pdf"><Download size={18}/>Download CV</a>
                 </nav>
             </div>
             
