@@ -108,7 +108,7 @@ function Skills() {
                     className="flex flex-col items-center gap-3 font-medium"
                     key={i}
                   >
-                    <img className="lg:h-17 grayscale-25" src={item.skillIcon} />
+                    <img className="lg:h-17 h-15 grayscale-25" src={item.skillIcon} />
                     <p className="text-[13px] font-medium tracking-normal text-zinc-300">
                       {item.skillName}
                     </p>
@@ -129,7 +129,7 @@ function Skills() {
                     className="flex flex-col items-center gap-3 font-medium"
                     key={i}
                   >
-                    <img className="lg:h-17 grayscale-25" src={item.skillIcon} />
+                    <img className="lg:h-17 h-15 grayscale-25" src={item.skillIcon} />
                     <p className="text-[13px] font-medium tracking-normal text-zinc-300">
                       {item.skillName}
                     </p>
