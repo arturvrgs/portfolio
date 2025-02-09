@@ -101,7 +101,7 @@ function Skills() {
         <div id="skills" className="lg:flex lg:gap-30 lg:justify-start lg:items-start">
           <div className="flex flex-col items-center justify-center gap-9">
             <h1 className="text-xl tracking-[8px] text-zinc-300">{'<'}{text}{'>'}</h1>
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
               {skillItemsDev.map((item, i) => {
                 return (
                   <div
@@ -122,7 +122,7 @@ function Skills() {
               {"<DevOps />"}
               <Cursor />
             </h1>
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
               {skillItemsDevOps.map((item, i) => {
                 return (
                   <div
