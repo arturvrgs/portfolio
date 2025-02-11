@@ -57,19 +57,19 @@ function Contact() {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="text-zinc-200 tracking-wider w-96 flex flex-col items-start bg-zinc-800 p-6 rounded-lg shadow-lg"
+          className="text-zinc-200 tracking-wider w-96 flex flex-col items-start bg-zinc-800 p-6 rounded-lg shadow-lg lg:scale-100 scale-90"
         >
           <h1 className="text-xl mb-6 text-zinc-200">Faça contato comigo!</h1>
 
           <input
-            className="bg-zinc-300 text-zinc-900 mb-4 h-10 rounded-lg placeholder-zinc-500 px-3 focus:outline-none focus:border-[#D08700] focus:ring-2 focus:ring-[#D08700]"
+            className="bg-zinc-300 text-zinc-900 mb-4 h-10 rounded-lg placeholder-zinc-500 w-full px-3 focus:outline-none focus:border-[#D08700] focus:ring-2 focus:ring-[#D08700]"
             placeholder="SEU NOME"
             type="text"
             name="user_name"
             required
           />
           <input
-            className="bg-zinc-300 text-zinc-900 mb-4 h-10 rounded-lg placeholder-zinc-500 px-3 focus:outline-none focus:border-[#D08700] focus:ring-2 focus:ring-[#D08700]"
+            className="bg-zinc-300 text-zinc-900 mb-4 h-10 rounded-lg placeholder-zinc-500 w-full px-3 focus:outline-none focus:border-[#D08700] focus:ring-2 focus:ring-[#D08700]"
             placeholder="SEU EMAIL"
             type="email"
             name="user_email"
