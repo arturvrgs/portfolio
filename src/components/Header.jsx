@@ -14,7 +14,7 @@ function Header() {
   return (
     <header className="flex justify-between items-center text-zinc-100 py-5 px-5 text-md font-medium lg:bg-zinc-900/40 lg:backdrop-blur-sm fixed w-full z-10">
       <button
-        className="border rounded-md border-2 border-zinc-700 p-2 hover:cursor-pointer lg:hidden"
+        className="rounded-md border-2 border-zinc-700 p-2 hover:cursor-pointer lg:hidden"
         onClick={() => setIsMenuOpen(true)}
         aria-label="Abrir menu"
       >
