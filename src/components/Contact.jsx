@@ -31,7 +31,7 @@ function Contact() {
   };
 
   return (
-    <div className="flex flex-col items-center relative">
+    <div id='contact' className="flex flex-col items-center relative">
       {showPopup && (
         <motion.div 
           initial={{ opacity: 0, x: 300 }} 
