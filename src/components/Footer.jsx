@@ -1,5 +1,3 @@
-import {Download} from 'lucide-react'
-
 function Footer() {
     return (
         <footer className="h-60 border-t-4 p-10 border-zinc-800 mt-[15%] backdrop-blur-sm tracking-wider flex justify-center">
