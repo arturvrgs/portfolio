@@ -4,15 +4,13 @@ import css from "../assets/img/css.png";
 import tailwind from "../assets/img/tailwind.png";
 import typescript from "../assets/img/typescript.png";
 import react from "../assets/img/react.png";
-import sass from "../assets/img/sass.png";
-import php from "../assets/img/php.png";
 import java from "../assets/img/java.png";
-import python from "../assets/img/python.png";
-import selenium from "../assets/img/selenium.png";
-import drawio from "../assets/img/draw.io.png";
 import git from "../assets/img/git.png";
 import mysql from "../assets/img/mysql.png";
-import netbeans from "../assets/img/netbeans.png";
+import azuredevops from "../assets/img/azuredevops.webp";
+import figma from "../assets/img/figma.png";
+import junit from "../assets/img/junit.png";
+
 import { motion } from "framer-motion";
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 
@@ -42,32 +40,12 @@ const skillItemsDev = [
     skillName: "React",
   },
   {
-    skillIcon: sass,
-    skillName: "Sass",
-  },
-  {
-    skillIcon: php,
-    skillName: "PHP",
-  },
-  {
     skillIcon: java,
     skillName: "Java",
-  },
-  {
-    skillIcon: python,
-    skillName: "Python",
   },
 ];
 
 const skillItemsDevOps = [
-  {
-    skillIcon: selenium,
-    skillName: "Selenium",
-  },
-  {
-    skillIcon: drawio,
-    skillName: "Draw.io",
-  },
   {
     skillIcon: git,
     skillName: "Git",
@@ -77,9 +55,17 @@ const skillItemsDevOps = [
     skillName: "MySQL",
   },
   {
-    skillIcon: netbeans,
-    skillName: "NetBeans",
+    skillIcon: azuredevops,
+    skillName: "Azure DevOps",
   },
+  {
+    skillIcon: figma,
+    skillName: "Figma",
+  },
+  {
+    skillIcon: junit,
+    skillName: "JUnit 5",
+  }
 ];
 
 function Skills() {
