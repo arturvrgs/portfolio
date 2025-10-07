@@ -7,7 +7,7 @@ import react from "../assets/img/react.png";
 import java from "../assets/img/java.png";
 import git from "../assets/img/git.png";
 import mysql from "../assets/img/mysql.png";
-import azuredevops from "../assets/img/azuredevops.webp";
+import azuredevops from "../assets/img/azuredevops.png";
 import figma from "../assets/img/figma.png";
 import junit from "../assets/img/junit.png";
 
@@ -108,7 +108,7 @@ function Skills() {
               {"<DevOps />"}
               <Cursor />
             </h1>
-            <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-3 lg:grid-cols-4">
               {skillItemsDevOps.map((item, i) => {
                 return (
                   <div
