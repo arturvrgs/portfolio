@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function About() {
 
     const[text]=useTypewriter({
-        words:['Desenvolvedor Front-end'],
+        words:['Desenvolvedor Back-end'],
         loop:1000
     })
 

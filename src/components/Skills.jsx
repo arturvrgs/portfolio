@@ -108,7 +108,7 @@ function Skills() {
               {"<DevOps />"}
               <Cursor />
             </h1>
-            <div className="grid grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
               {skillItemsDevOps.map((item, i) => {
                 return (
                   <div
